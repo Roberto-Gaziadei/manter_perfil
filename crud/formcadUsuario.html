@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro de usuários</title>
+
+</head>
+
+<body>
+
+    <h1>Formulário de cadastro de usuário</h1>
+
+    <form action="cadastrar.php" method="post">
+
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome"><br><br>
+
+        <label for="email">Digite seu email:</label>
+        <input type="email" name="email" id="email" placeholder="Digite o seu email"><br><br>
+
+        <label for="senha">Digite a sua senha:</label>
+        <input type="password" name="senha" id="senha" placeholder="Digite a sua senha"><br><br>
+
+        <input type="hidden" name="icone" value="user.png">
+
+        <input type="submit" value="Cadastrar">
+    </form>
+
+    <p><a href="../index.php">Voltar</a></p>
+    
+</body>
+
+</html>
